@@ -32,7 +32,6 @@
   "devDependencies": {
     "@wordpress/scripts": "^3.4.0",
     "css-loader": "^3.1.0",
-    "fs": "0.0.1-security",
     "ignore-emit-webpack-plugin": "^2.0.2",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
