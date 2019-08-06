@@ -1,2 +1,5 @@
-// Register block
+/**
+ * Internal dependencies
+ */
+
 import './blocks/container';

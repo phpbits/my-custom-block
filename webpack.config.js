@@ -2,10 +2,9 @@ const defaultConfig = require( './node_modules/@wordpress/scripts/config/webpack
 const path = require( 'path' );
 const postcssPresetEnv = require( 'postcss-preset-env' );
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
-const IgnoreEmitPlugin = require('ignore-emit-webpack-plugin');
+const IgnoreEmitPlugin = require( 'ignore-emit-webpack-plugin' );
 
-
-const production = process.env.NODE_ENV === "production";
+const production = process.env.NODE_ENV === 'production';
 
 module.exports = {
     ...defaultConfig,
